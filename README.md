@@ -22,7 +22,6 @@ git clone https://github.com/jpatil-bit/bank-subscription-classifier-comparison.
 
 **Conclusion**
 * The dataset collected is related to 17 marketing campaigns , that occurred between May 2008 and November 2010 corresponding to a total of 79,354 contacts.
-* TB
 * Splited the dataset into train and test sets (70% train, 30% test).
 * Baseline accuracy (majority class): 0.8873
 * ## Model Performance Comparison
@@ -42,7 +41,9 @@ git clone https://github.com/jpatil-bit/bank-subscription-classifier-comparison.
 | SVM                 | 52.9           | 0.95           | 0.90          |
 | KNN                 | 0.009          | 0.94           | 0.90          |  
 
-
-**Conclusion**
 Hyperparameter tuning significantly improved model performance, but Logistic Regression offers the best balance of accuracy, efficiency, and generalization.
 It is the most suitable model for predicting whether a bank customer will subscribe to a term deposit.
+
+**Prediction of which customer will subscribe to the subscrioption**
+Customers contacted via cellular channels, with longer call durations, no existing housing or personal loans, and employed in administrative or professional roles. The predictive model enables focused targeting, improving campaign efficiency and reducing operational costs.
+
