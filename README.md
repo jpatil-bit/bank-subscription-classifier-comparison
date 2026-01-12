@@ -21,3 +21,16 @@ https://github.com/jpatil-bit/bank-subscription-classifier-comparison/blob/main/
 git clone https://github.com/jpatil-bit/bank-subscription-classifier-comparison.git
 
 **Conclusion**
+* The dataset collected is related to 17 marketing campaigns , that occurred between May 2008 and November 2010 corresponding to a total of 79,354 contacts.
+* TB
+* Splited the dataset into train and test sets (70% train, 30% test).
+* Baseline accuracy (majority class): 0.8873
+* ## Model Performance Comparison
+
+| Model               | Train Time (s) | Train Accuracy | Test Accuracy |
+|---------------------|----------------|----------------|---------------|
+| Logistic Regression | 0.32           | 0.88           | 0.88          |
+| SVM                 | 3.44           | 0.88           | 0.88          |
+| KNN                 | 0.002          | 0.89           | 0.87          |
+| Decision Tree       | 0.04           | 0.91          | 0.86           | 
+
