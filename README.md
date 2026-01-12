@@ -34,10 +34,15 @@ git clone https://github.com/jpatil-bit/bank-subscription-classifier-comparison.
 | KNN                 | 0.002          | 0.89           | 0.87          |
 | Decision Tree       | 0.04           | 0.91          | 0.86           | 
 
-**Metrics : After the optimization of the model:** 
+**Metrics(Hyperparameter) : After the optimization of the model:** 
 | Model               | Train Time (s) | Train Accuracy | Test Accuracy |
 |---------------------|----------------|----------------|---------------|
 | Logistic Regression | 0.13           | 0.91           | 0.91          |
 | Decision Tree       | 0.02           | 0.90           | 0.90          |
 | SVM                 | 52.9           | 0.95           | 0.90          |
 | KNN                 | 0.009          | 0.94           | 0.90          |  
+
+
+**Conclusion**
+Hyperparameter tuning significantly improved model performance, but Logistic Regression offers the best balance of accuracy, efficiency, and generalization.
+It is the most suitable model for predicting whether a bank customer will subscribe to a term deposit.
