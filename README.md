@@ -45,5 +45,4 @@ Hyperparameter tuning significantly improved model performance, but Logistic Reg
 It is the most suitable model for predicting whether a bank customer will subscribe to a term deposit.
 
 **Prediction of which customer will subscribe to the subscrioption**
-Customers contacted via cellular channels, with longer call durations, no existing housing or personal loans, and employed in administrative or professional roles. The predictive model enables focused targeting, improving campaign efficiency and reducing operational costs.
-
+Customers contacted via cellular channels, with longer call durations, no existing housing or personal loans, and employed in administrative or professional roles. 
