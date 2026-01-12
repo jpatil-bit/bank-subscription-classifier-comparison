@@ -1,9 +1,8 @@
-Classifier Comparison - This project predicts whether a bank client will subscribe to a term deposit (y = yes/no) using client demographics, past campaign interactions, and economic indicators.  
-                        The goal is to help the bank optimize its marketing efforts, reduce costs of unsuccessful calls, and increase subscription success rates.
-
-                        It also compares and optimize the classifiers K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines.
-
-Tools and Libraries Used : sklearn , 
+Classifier Comparison - This project predicts whether a bank client will subscribe to a term deposit (y = yes/no) using client demographics, past campaign interactions, and economic indicators. The goal is to help the bank optimize its marketing efforts, reduce costs of unsuccessful calls, and increase subscription success rates.
+It also compares and optimize the classifiers K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines.
+                        
+**
+Tools and Libraries Used** : sklearn , 
 
 Dataset https://github.com/jpatil-bit/bank-subscription-classifier-comparison/blob/main/data/bank-additional-full.csv
 
