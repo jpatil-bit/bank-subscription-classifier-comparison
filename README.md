@@ -26,7 +26,7 @@ git clone https://github.com/jpatil-bit/bank-subscription-classifier-comparison.
 * Splited the dataset into train and test sets (70% train, 30% test).
 * Baseline accuracy (majority class): 0.8873
 * ## Model Performance Comparison
-
+**Metrics : Before the optimization of the model:** 
 | Model               | Train Time (s) | Train Accuracy | Test Accuracy |
 |---------------------|----------------|----------------|---------------|
 | Logistic Regression | 0.32           | 0.88           | 0.88          |
@@ -34,3 +34,10 @@ git clone https://github.com/jpatil-bit/bank-subscription-classifier-comparison.
 | KNN                 | 0.002          | 0.89           | 0.87          |
 | Decision Tree       | 0.04           | 0.91          | 0.86           | 
 
+**Metrics : After the optimization of the model:** 
+| Model               | Train Time (s) | Train Accuracy | Test Accuracy |
+|---------------------|----------------|----------------|---------------|
+| Logistic Regression | 0.13           | 0.91           | 0.91          |
+| Decision Tree       | 0.02           | 0.90           | 0.90          |
+| SVM                 | 52.9           | 0.95           | 0.90          |
+| KNN                 | 0.009          | 0.94           | 0.90          |  
